@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;400&display=swap');
+
+*{
+    font-family: 'Poppins', sans-serif;
+}
+
+body{
+    background-image: url(backgroundcopy.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+
+ .loginbox{
+    height: 400px;
+    width: 320px;
+    background: #fff;
+    color: #000;
+    top: 50%;
+    left: 50%;
+    position:absolute;
+    transform:translate(-50%,-50%);
+    box-sizing: border-box;
+    padding: 5px 30px;
+    border-radius: 20px;
+  
+ }
+
+ .loginbox h1{
+    text-align: center;
+ }
+
+ .loginbox p{
+    margin: 0;
+    padding: 0;
+    font-weight: bold;
+    
+ }
+
+ .loginbox input{
+    width: 100%;
+    margin-bottom: 20px;
+ }
+
+ .loginbox input[type="text"], input[type="password"] {
+
+    border: none;
+    border-bottom: 2px solid #2f2e2e;
+    background: transparent;
+    outline: none;
+    height: 40px;
+ }
+
+ .loginbox input[type="submit"]{
+
+    border: none;
+    outline: none;
+    height: 40px;
+    background: rgb(183, 183, 183);
+    font-size: 18px;
+    border-radius: 10px;
+
+ }
+
+ .loginbox input[type="submit"]:hover{
+    cursor: pointer;
+    background: #2c6df1;
+
+ }
+
+ .forget {
+    
+    padding:3px;
+    text-align: center;
+    font-size: 12px;
+
+ }
+
+ .signup {
+    
+    padding:3px;
+    text-align: center;
+    font-size: 12px;
+
+ }
+
+ 
