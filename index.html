@@ -3,6 +3,30 @@
     <head>
         <title>"Index"</title>
         <link rel="stylesheet",type="text/css", href="indexsheet.css">
+        <style>  
+            .sign-up-checkbox {
+                display: flex;
+            }
+            .sign-up-checkbox label {
+                margin-left: 0px;
+                margin-right: 50px;
+                font-size: 12px;
+                margin-top: 0; 
+                margin-bottom: 0;
+                white-space: nowrap;
+            }
+            .loginbox input[type="text"],
+            .loginbox input[type="password"],
+            .loginbox input[type="submit"] {
+                margin-bottom: 10px;
+                padding: 5px;
+            }
+            .forget,
+            .signup {
+                margin-top: 2px;
+                padding-top: 0;
+            }
+        </style>
     </head>
     <body>
 
@@ -14,6 +38,10 @@
                     <p>Password</p>
                     <input type="password", name="", placeholder="Enter password">
                     <br>
+                    <div class="sign-up-checkbox">
+                        <input type="checkbox" id="remember-checkbox">
+                        <label for="remember-checkbox">Remember me</label>
+                    </div>
                     <input type="submit", name ="", value="LOGIN">
                     <div class="forget"> 
                         <a href="#">Forgot password?</a><br>
